@@ -573,4 +573,11 @@ void Arduino_ILI9163C::rgbWheel(int idx, uint8_t *_r, uint8_t *_g, uint8_t *_b)
   }
 } 
 
+uint16_t Arduino_ILI9163C::rgbWheel(int idx)
+{
+  uint8_t r,g,b;
+  rgbWheel(idx, &r,&g,&b);
+  return RGBto565(r,g,b);
+}
+
 // ------------------------------------------------

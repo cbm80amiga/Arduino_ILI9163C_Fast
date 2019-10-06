@@ -179,6 +179,7 @@ class Arduino_ILI9163C : public Adafruit_GFX {
   uint16_t Color565(uint8_t r, uint8_t g, uint8_t b);
   uint16_t color565(uint8_t r, uint8_t g, uint8_t b) { return Color565(r, g, b); } 
   void rgbWheel(int idx, uint8_t *_r, uint8_t *_g, uint8_t *_b);
+  uint16_t rgbWheel(int idx);
 
  protected:
   void displayInit(const uint8_t *addr);
