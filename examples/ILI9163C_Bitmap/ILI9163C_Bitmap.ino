@@ -1,6 +1,5 @@
 // ILI9163C library example
 // (c) 2019 Pawel A. Hernik
-// requires RREFont library
 
 /*
 Pinout (header on the top, from left):
