@@ -10,7 +10,7 @@ Achieved 6.9Mbps SPI transfer rate (at DIV2/16MHz clock)
 
 ## Configuration
 
-Use "define COMPATIBILITY_MODE" - then the library should work on all Arduino compatible boards
+Use "#define COMPATIBILITY_MODE" - then the library should work on all Arduino compatible boards
 Remove above for the best performance on 16MHz AVR
 
 Use "#define CS_ALWAYS_LOW" for LCD boards where CS pin is internally connected to the ground, it gives better performance
