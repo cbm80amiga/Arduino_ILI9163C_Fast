@@ -19,6 +19,8 @@ Use "#define CS_ALWAYS_LOW" for LCD boards where CS pin is internally connected 
 
 "#define __144_RED_PCB__" for "red" PCB version
 
+Tested with Arduino IDE 1.6.5 and Adafruit_GFX 1.5.6
+
 ## Extra Features
 - invertDisplay()
 - sleepDisplay()
